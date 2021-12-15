@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Layout 1`] = `
+<div>
+  <header>
+    <p>
+      Sign In Below
+    </p>
+  </header>
+  <main />
+</div>
+`;
