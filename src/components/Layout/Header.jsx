@@ -1,11 +1,17 @@
-import { useUser } from "../../context/UserContext"
+import { useAuth } from "../../context/AuthContext"
 
 export default function Header() {
-    const { user } = useUser()
+    const { user, logout } = useAuth()
 
     return (
         <header>
-            { user ? <p>Signing as {user}</p> : <p>Sign In Below</p>}
+            <h1>Guestbook</h1>
+            { user ? 
+            <>
+            <p>Signing as {user.username}</p> 
+            <button type='button' onClick={logout}>Logout</button>
+            </>
+            : <p>Not signed in</p>}
         </header>
     )
 }

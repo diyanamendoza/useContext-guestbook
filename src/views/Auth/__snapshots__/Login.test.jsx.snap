@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should allow the user Betty to log in 1`] = `
+<div>
+   
+  <div
+    class="formcontainer"
+  >
+    <fieldset>
+      <legend>
+        Sign In
+      </legend>
+      <form>
+        <label
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          id="username"
+          name="username"
+          required=""
+          type="text"
+          value=""
+        />
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          id="password"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <button
+          aria-label="Sign In"
+          type="submit"
+        >
+          Sign In
+        </button>
+      </form>
+    </fieldset>
+  </div>
+   
+</div>
+`;

@@ -2,43 +2,26 @@
 
 exports[`should render Home 1`] = `
 <div>
+   
   <div>
-    <h2>
-      Please sign the guestbook!
-    </h2>
     <form>
-      <div
-        class="nameinput"
-      >
-        <label
-          for="username"
-        >
-          Your Name
-        </label>
-        <input
-          id="username"
-          placeholder="name"
-          type="text"
-          value=""
-        />
-      </div>
       <label
         for="guest-entry"
       >
-        Guest Entry
+        Your Entry
       </label>
       <textarea
         id="guest-entry"
-        placeholder="Your message"
+        placeholder="Type your entry here."
       />
       <button
         type="submit"
       >
-        Sign
+        Add Entry to Guestbook
       </button>
-      
     </form>
     <ul />
   </div>
+   
 </div>
 `;
