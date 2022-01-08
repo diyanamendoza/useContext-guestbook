@@ -2,11 +2,20 @@
 
 exports[`should render Layout 1`] = `
 <div>
+   
   <header>
+    <h1>
+      Guestbook
+    </h1>
     <p>
-      Sign In Below
+      Not signed in
     </p>
   </header>
+  <img
+    alt="journal-background"
+    src="journal-2.jpg"
+  />
   <main />
+   
 </div>
 `;

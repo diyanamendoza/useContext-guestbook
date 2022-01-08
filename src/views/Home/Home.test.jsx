@@ -1,14 +1,14 @@
 import { render } from '@testing-library/react'
+import { AuthProvider } from '../../context/AuthContext'
 import { EntryProvider } from '../../context/EntryContext'
-import { UserProvider } from '../../context/UserContext'
 import Home from './Home'
 
 it('should render Home', () => {
   const { container } = render(
+    <AuthProvider>
     <EntryProvider>
-    <UserProvider>
         <Home />
-     </UserProvider>
-    </EntryProvider>)
+    </EntryProvider>
+    </AuthProvider>)
   expect(container).toMatchSnapshot()
 })
